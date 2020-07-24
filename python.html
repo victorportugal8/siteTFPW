@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="shortcut icon" href="img/icon/icon.png" type="image/x-icon"/>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="css/dashboard.css" rel="stylesheet">
+  <title>Portuga's Academy</title>
+</head>
+
+<body>
+    <header class="navbar navbar-dark bg-danger p-0 flex-nowrap fixed-top shadow">
+        <a class="navbar-brand col-2" href="index.html">Portuga's Academy</a>
+        
+        <input class="form-control form-control-dark" type="text" placeholder="Pesquisar" aria-label="Pesquisar">
+
+        <div class="navbar-nav px-3">
+          <a class="nav-item nav-link py-0 text-nowrap" href="#">Fazer login</a>
+        </div>
+        <div class="navbar-nav px-3">
+            <a class="nav-item nav-link py-0 text-nowrap" href="#">Sair</a>
+        </div>
+    </header>>
+
+
+  <nav class="col-2 bg-light sidebar">
+        <h6 class="sidebar-heading px-3 mt-4">
+            <span>Portuga's Academy</span>
+        </h6>
+      <ul class="nav flex-column">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html" title="Ir para a página principal.">
+            Início
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html" title="Ir para a página de descrição.">
+            Sobre nós
+          </a>
+      </ul>
+
+      <h6 class="sidebar-heading px-3 mt-4">
+        <span>Cursos</span>
+      </h6>
+      <ul class="nav flex-column">
+        <li class="nav-item">
+          <a class="nav-link" href="python.html" title="Ir para a página do curso de Python.">
+            Python: Do básico ao avançado
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="web2py.html" title="Ir para a página do curso de Web2Py.">
+            Python: Web2Py
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+    <main role="main" class="col-10 ml-auto px-4">
+
+    <div class="d-flex justify-content-between align-items-center mt-4 border-bottom pb-2 mb-3">
+      <h1 class="h2">Curso Python: Do básico ao avançado</h1>
+    </div>
+
+    <!-- Apresentação -->
+    <div class="">
+        <h5>Apresentação do curso</h5>
+        <p>
+            Seja bem-vindo ao curso de Python, as vídeo aulas a seguir são de autoria do canal do YouTube <a class="link-python-youtube" href="https://www.youtube.com/channel/UCrWvhVmt0Qac3HgsjQK62FQ" title="Ir para o YouTube" target="_blank">Curso em Vídeo</a>,
+            acessem o canal dele para saber mais sobre o trabalho. O curso é composto por 247 vídeo aulas, sendo 111 de exercícios e tem em torno de 70h duração total. 
+            Espero que gostem do curso, aproveitem!
+        </p>
+    </div>
+
+    <div class="ml-auto">
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" id="mundo1-tab" data-toggle="tab" href="#mundo1" role="tab" aria-controls="mundo1" aria-selected="true">Curso de Python: Mundo 1 - Fundamentos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="mundo2-tab" data-toggle="tab" href="#mundo2" role="tab" aria-controls="mundo2" aria-selected="false">Curso de Python: Mundo 2 - Estruturas de Controle</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="mundo3-tab" data-toggle="tab" href="#mundo3" role="tab" aria-controls="mundo3" aria-selected="false">Curso de Python: Mundo 3 - Estruturas Compostas</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="exercicio-tab" data-toggle="tab" href="#exercicio" role="tab" aria-controls="exercicio" aria-selected="false">Curso de Python: Exercícios</a>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <!-- Mundo 1 -->
+        <div class="tab-pane fade show active" id="mundo1" role="tabpanel" aria-labelledby="mundo1-tab">
+          <div class="border-bottom pb-2">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" width="1903" height="800" src="https://www.youtube.com/embed/S9uPNppGsGo?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+        <!-- Mundo 2 -->
+        <div class="tab-pane fade" id="mundo2" role="tabpanel" aria-labelledby="mundo2-tab">
+          <div class="border-bottom pb-2">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" width="1903" height="800" src="https://www.youtube.com/embed/nJkVHusJp6E?list=PLHz_AreHm4dk_nZHmxxf_J0WRAqy5Czye" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      <!-- Mundo 3 -->
+      <div class="tab-pane fade" id="mundo3" role="tabpanel" aria-labelledby="mundo3-tab">
+        <div class="border-bottom pb-2">
+          <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" width="1903" height="800" src="https://www.youtube.com/embed/0LB3FSfjvao?list=PLHz_AreHm4dksnH2jVTIVNviIMBVYyFnH" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+      <!-- Exercícios -->
+      <div class="tab-pane fade" id="exercicio" role="tabpanel" aria-labelledby="exercicio-tab">
+        <div class="border-bottom pb-2">
+          <div class="embed-responsive embed-responsive-16by9">
+              <!-- <iframe  src="https://www.youtube.com/watch?v=nIHq1MtJaKs&list=PLHz_AreHm4dm6wYOIW20Nyg12TAjmMGT-"></iframe> -->
+              <iframe class="embed-responsive-item" width="1903" height="800" src="https://www.youtube.com/embed/nIHq1MtJaKs?list=PLHz_AreHm4dm6wYOIW20Nyg12TAjmMGT-" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    </main>
+
+
+ 
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>   
+</body>
+</html>
